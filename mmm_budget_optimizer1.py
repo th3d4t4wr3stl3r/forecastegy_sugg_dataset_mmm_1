@@ -4,8 +4,8 @@ import altair as alt
 
 st.title("Budget Analysis App")
 
-curr_point_df = pd.read_csv('/workspaces/forecastegy_sugg_dataset_mmm_1/data/current_points.csv')
-mROI_plotting = pd.read_csv('/workspaces/forecastegy_sugg_dataset_mmm_1/data/mROI_plotting.csv')
+curr_point_df = pd.read_csv('./data/current_points.csv')
+mROI_plotting = pd.read_csv('./data/mROI_plotting.csv')
 
 # Charting
 
