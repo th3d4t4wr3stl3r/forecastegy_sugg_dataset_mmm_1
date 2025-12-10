@@ -1,19 +1,6 @@
-# 🎈 Blank app template
+# Budget Optimizer App
 
-A simple Streamlit app template for you to modify!
+### Description
+The app plots the marginal ROI curves for the marketing channels in the company. The sliders below allow the user (assumed stakeholders) to see the efficiency of spend budget for the different channels.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Note: After moving the slider, the point can be hovered on to see exact details.

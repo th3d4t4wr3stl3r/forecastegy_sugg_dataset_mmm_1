@@ -29,7 +29,7 @@ curves = base_chart.mark_line().encode(
   x = alt.X('spend',
               axis=alt.Axis(title='Spend ($)')),     # ← rename x-axis
     y = alt.Y('sat_curve_pts',
-              axis=alt.Axis(title='Saturation Score')),  # ← rename y-axis
+              axis=alt.Axis(title='mROI')),  # ← rename y-axis
   color = 'channel'
 )
 
