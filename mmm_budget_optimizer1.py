@@ -129,4 +129,4 @@ tt_point = make_slider_point(base_chart, 'tiktok', tt_budget)
 # Don't forget to call the created items!!!
 chart = curves + opt_points + opt_labels + current_points + current_labels + fb_point + gg_point + tt_point
 
-st.altair_chart(chart)
+st.altair_chart(chart, width="stretch", height=400)
